@@ -1,5 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
-#sdlsdvsdlvn
-asdasasd
+def index(request):
+    return render (request, 'base_layout.html')
